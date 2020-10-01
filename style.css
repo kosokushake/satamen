@@ -1,0 +1,77 @@
+body > h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-image: url("https://d1f5hsy4d47upe.cloudfront.net/ba/ba291c2228b6b5257983d897985b6ab2_t.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.line {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.line p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.line h3 {
+  margin-top: 5px;
+  color: black;
+  cursor: pointer;
+  transition: color .5s;
+}
+
+.line h3:hover {
+  opacity: 0.6;
+  color: red;
+}
+
+.line a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.line {
+  width: 100%;
+}
+
+.line img {
+  width: 120px;
+  height: 150px;
+}
+
+.btn {
+  padding: 4px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+.btn > a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  opacity: 0.7;
+} 
+
+@media (min-width: 1150px) {
+  .main {
+    flex-wrap: nowrap;
+  }
+}
